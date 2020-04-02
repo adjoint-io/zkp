@@ -4,7 +4,7 @@ import Data.Curve.Weierstrass
 import Data.Curve.Weierstrass.BN254 (BN254, Fr)
 import Data.Euclidean (Euclidean (..))
 import Data.Pairing (Pairing (..))
-import Data.Poly (VPoly (..), eval, gcdExt, monomial, toPoly)
+import Data.Poly (VPoly (..), eval, monomial, toPoly)
 import Data.Vector (fromList)
 import Protocol.Groth (secretEvalInExponent)
 import Protolude hiding (rem)
